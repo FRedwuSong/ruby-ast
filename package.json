@@ -1,0 +1,36 @@
+{
+  "name": "@buxlabs/ruby-ast",
+  "version": "0.1.0",
+  "description": "Ruby to abstract syntax tree converter",
+  "main": "build/ruby-ast.js",
+  "scripts": {
+    "build": "rollup --config config.js",
+    "lint": "standard",
+    "test": "npm run build && ava \"test/spec/**/*.js\"",
+    "coverage": "nyc npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buxlabs/ruby-ast.git"
+  },
+  "keywords": [
+    "ruby",
+    "ast",
+    "converter"
+  ],
+  "author": "Emil Ajdyna <emil@ajdyna.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buxlabs/ruby-ast/issues"
+  },
+  "homepage": "https://github.com/buxlabs/ruby-ast#readme",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "nyc": "^11.3.0",
+    "rollup": "^0.51.8",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "ignore": ["build/**/*"]
+  }
+}

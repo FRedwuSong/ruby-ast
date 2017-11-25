@@ -18,6 +18,9 @@
     "ast",
     "converter"
   ],
+  "engines": {
+    "node": ">= 8.9.1"
+  },
   "author": "Emil Ajdyna <emil@ajdyna.com>",
   "license": "MIT",
   "bugs": {

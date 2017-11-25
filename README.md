@@ -4,7 +4,14 @@ Ruby to abstract syntax tree converter
 
 ## Requirements
 
-- ruby 1.9+
+- NodeJS 8.9.1+
+- Ruby 1.9+
+
+## Installation
+
+```bash
+npm install @buxlabs/ruby-ast
+```
 
 ## Why?
 
